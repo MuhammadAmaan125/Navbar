@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(140, 233, 114);
+    Height: 30px;
+}
+h4{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 5px;
+   
+}
+h3{
+    display: inline-block;
+    text-align: center;
+    margin-left: 750px;
+    background-color: white;
+    height: 40px;
+    width: 90px;
+}
+h3:hover{
+    cursor: pointer;
+}
+.engul{
+   display: none;
+    list-style: none;
+}
+h3 .engli{
+    display: block;
+}
+.submenu{
+    background-color: white;
+    box-shadow: 1px 3px 10px lightgray;
+}
+img{
+    height: 60px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.submenuul{
+    display: inline-flex;
+    list-style: none;
+   position: relative;
+   top: -20px;
+    margin-left: 100px;
+}
+li{
+    margin-left: 30px;
+   
+}
+button{
+    margin-left: 65px;
+    position: relative;
+    top: -20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 255, 38);
+    border: none;
+    border-radius: 10px;
+    
+}
+.donatenow{
+    color: white;
+    font-weight: 700;
+}
+.submenu .aboutdiv ul{
+    display: none;
+    
+}
+.aboutli:hover .aboutdiv ul{
+    display: block;
+    position: absolute;
+    background-color: rgb(145, 133, 133);
+
+   
+   }
+  .submenuul .aboutli .aboutdiv { 
+   
+position: absolute;
+top: 40px;
+   
+  }
+    
+
+.submenuul .aboutli .aboutdiv .aboutul li{
+    position: relative;
+   list-style: none;
+    
+    /* top: 40px; */
+}
+
+
+ .aboutdiv ul li:hover{
+    background-color: white;
+    color: white;
+    position: relative;
+  
+
+   
+}
+ .submenuul li .servicediv .serviceul{
+    display: none;
+}
+ .submenuul li:hover .servicediv .serviceul{
+    display: block;
+    position: absolute;
+    list-style: none;
+    line-height: 30px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 1px 3px 10px lightgray;
+}
+ .submenuul li:hover .servicediv .serviceul li{
+    color: black;
+}
+.submenu .submenuul li .servicediv .serviceul li:hover{
+    background-color: lightgray;
+    margin-left: -1px;
+    padding-left: 30px;
+}
